@@ -1,19 +1,14 @@
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home 121</ion-title>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <input #newHero
-      (keyup.enter)="addHero(newHero.value); newHero.value=''"
-      (blur)="addHero(newHero.value); newHero.value='' ">
-
-    <button (click)="addHero(newHero.value)">Comment</button>
-
-    <ul><li *ngFor="let hero of heroes">{{hero}} <button (click)="deletecomnt();">delete</button></li></ul>
-        
-</ion-content> 
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
+</ion-content>
